@@ -3,7 +3,6 @@ import './App.css'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 
-//used to be function App()
 export default function App() {
   <>
   {/*Main Content - Graph*/}
