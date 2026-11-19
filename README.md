@@ -32,13 +32,13 @@ Below is the current feature set and my upcoming release roadmap.
 - **Visual State Matrix:** Implemented real-time color-coded indicators representing active "Allowed" vs. "Denied" policies as roles change.
 - **Foundational RBAC Logic:** Developed frontend state validation to simulate standard Role-Based Access Control configurations.
 
-### In Progress (Targeting Late July 2026)
+### In Progress
 - **Python Backend API Integration:** 
   - Transitioning authorization logic from frontend state to a dedicated Python engine (FastAPI/Flask).
   - Implementing rigorous policy-validation endpoints to process complex permission matrices on the server side.
 - **Persistent Storage:** Adding a lightweight SQLite configuration to allow users to save, export, and share custom access topologies.
 
-### Planned Infrastructure (Targeting August 2026)
+### Planned Infrastructure
 - **Docker Containerization:** Packaging the React frontend and Python backend into multi-container setups (`docker-compose`) for seamless, one-command local setups.
 - **Expanded Scenarios:** Creating interactive "missions" (e.g., "Secure a simulated medical database") to gamify the learning experience.
 - **Enhanced Visualizations:** Building a dynamic node graph (using libraries like React Flow) to visually map active access paths from users to resources.
@@ -94,4 +94,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 📄 License
 
-Distributed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Distributed under the MIT License. See the LICENSE file for more information.
